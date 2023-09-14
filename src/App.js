@@ -41,6 +41,8 @@ import StudentBookmark from "./pages/StudentBookmark";
 import StudentOffer from "./pages/StudentOffer";
 import VenderProfile from "./pages/VenderProfile";
 import StudentProfile from "./pages/StudentProfile";
+import Templates from "./pages/Templates";
+import Deals from "./pages/Deals";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle.js";
 import './App.css';
@@ -89,6 +91,10 @@ function App() {
             <Route exact="true" path="/studentoffer" element={<StudentOffer/>}></Route>
             <Route exact="true" path="/venderprofile" element={<VenderProfile/>}></Route>
             <Route exact="true" path="/studentprofile" element={<StudentProfile/>}></Route>
+            <Route exact="true" path="/templates" element={<Templates/>}></Route>
+            <Route exact="true" path="/deals" element={<Deals/>}></Route>
+            
+            
             
             <Route path="*" element={<Error/>}></Route>
 

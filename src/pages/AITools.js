@@ -9,7 +9,7 @@ import Header from "../Header";
 import { FiSearch } from "react-icons/fi";
 
 function AITools(params) {
-    document.title="AndFilp - Ai Tools"
+    document.title="AndFilp - Software"
     const [ AllpostData, setAllpostData] =useState(Allpost);
     console.log(AllpostData);
 
@@ -23,7 +23,7 @@ function AITools(params) {
         <>  
             <Header/>
            
-            <SubBanner indexpage="Home" indexvisit="/" activepage="Ai Tools"/>
+            <SubBanner indexpage="Home" indexvisit="/" activepage="Software"/>
 
           <main className="float-start w-100 body-part-main">
             

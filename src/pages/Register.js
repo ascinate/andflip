@@ -104,7 +104,7 @@ function Register() {
                         <div className="col">
                           <div className="righty-signup d-inline-block w-100">
                            <form method="get" action="gk">
-                            <h2 className="text-center"> Join Ai Jumble </h2>
+                            <h2 className="text-center"> Join AndFilp </h2>
                             <p className="text-center mt-4"> Capterra helps you find the right software for your needs. Sign up to start finding
                              and comparing products that are best for your team.</p>
                             <div className="d-flex align-items-center justify-content-center mt-4">

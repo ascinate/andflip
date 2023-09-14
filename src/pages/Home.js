@@ -5,6 +5,7 @@ import PopularSlider from "./components/home/PopularSlider";
 import SliderReview from "./components/home/SliderReview";
 import DiscoverProdcuts from "./components/home/DiscoverProdcuts";
 import AiServices from "./components/home/AiServices";
+import FeaturesTools from "./components/home/FeaturesTools";
 import { FaStar, FaArrowRight, FaPaperPlane } from "react-icons/fa";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
@@ -117,10 +118,10 @@ function Home(){
 
              <section className="ali-services d-inline-block w-100">
                 <div className="container">
-                    <h2 className="text-center main-heading-text"> Research popular AI tools & services </h2>
+                    <h2 className="text-center main-heading-text"> Featured Tools </h2>
                     <div className="under-line text-center d-block w-100 mx-auto"></div>
-                    <AiServices/>
-
+                    
+                     <FeaturesTools/> 
                     <Link to="/aitools" className="btn btn-see-all d-table mx-auto"> See all tools <span>
                     <FaArrowRight/>
                   </span> </Link>

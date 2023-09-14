@@ -74,11 +74,11 @@ function Header() {
                             </li>
 
                             <li class="nav-item">
-                                <NavLink to="/listyourtool" class="nav-link">Templates</NavLink>
+                                <NavLink to="/templates" class="nav-link">Templates</NavLink>
                             </li>
 
                             <li class="nav-item">
-                                <NavLink to="/blog" class="nav-link"> Deals </NavLink>
+                                <NavLink to="/deals" class="nav-link"> Deals </NavLink>
                             </li>
 
                             
@@ -107,7 +107,7 @@ function Header() {
                         </button>
                               
 
-                        <Link to="/" className="btn log-btn">
+                        <Link to="/register" className="btn log-btn">
                             SignUp
                         </Link>
                         

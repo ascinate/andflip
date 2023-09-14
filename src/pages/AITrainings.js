@@ -8,7 +8,7 @@ import { FiSliders , FiSearch } from "react-icons/fi";
 import Header from "../Header";
 
 function AITrainings(params) {
-    document.title="AndFilp - Ai Trainings"
+    document.title="AndFilp - Courses"
     const [ AllcourseData, setAllcourseData] =useState(Allcourse);
     console.log(AllcourseData);
     useEffect(() => {
@@ -18,7 +18,7 @@ function AITrainings(params) {
     return(
         <>
         <Header/>
-        <SubBanner indexpage="Home" indexvisit="/" activepage="Browse Trainings"/>
+        <SubBanner indexpage="Home" indexvisit="/" activepage="Courses"/>
 
         <main className="float-start w-100 body-part-main">
              

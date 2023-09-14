@@ -47,13 +47,13 @@ function Footer() {
                          </li>
 
                            <li>
-                              <Link to="/glossary" className="min-lko"> <span className="ico"> <FaArrowRight/> </span> 
-                              <span> IT Glossary </span> </Link>
+                              <Link to="/templates" className="min-lko"> <span className="ico"> <FaArrowRight/> </span> 
+                              <span> Templates </span> </Link>
                            </li>
 
                            <li>
-                           <Link to="/aitools" className="min-lko"> <span className="ico"> <FaArrowRight/> </span> 
-                           <span> ALL AI tools </span> </Link>
+                           <Link to="/deals" className="min-lko"> <span className="ico"> <FaArrowRight/> </span> 
+                           <span>  Deals  </span> </Link>
                            </li>
 
                            <li>
@@ -67,8 +67,8 @@ function Footer() {
                            </li>
 
                            <li>
-                           <Link to="/aitrainings" className="min-lko"> <span className="ico"> <FaArrowRight/> </span> 
-                           <span> ALL AI Trainings </span> </Link>
+                           <Link to="/courses" className="min-lko"> <span className="ico"> <FaArrowRight/> </span> 
+                           <span> Courses </span> </Link>
                            </li>
                            
                            
