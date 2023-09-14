@@ -66,22 +66,19 @@ function Header() {
                             
                            
                             <li class="nav-item">
-                               <NavLink class="nav-link" to="/about">About </NavLink>
-                            </li>
-                            <li class="nav-item">
-                                <NavLink to="/aitools" class="nav-link">AI tools</NavLink>
+                                <NavLink to="/aitools" class="nav-link">Software</NavLink>
                             </li>
 
                             <li class="nav-item">
-                                <NavLink to="/aitrainings" class="nav-link">AI Trainings</NavLink>
+                                <NavLink to="/aitrainings" class="nav-link">Courses</NavLink>
                             </li>
 
                             <li class="nav-item">
-                                <NavLink to="/listyourtool" class="nav-link">List your Tool</NavLink>
+                                <NavLink to="/listyourtool" class="nav-link">Templates</NavLink>
                             </li>
 
                             <li class="nav-item">
-                                <NavLink to="/blog" class="nav-link"> Blog </NavLink>
+                                <NavLink to="/blog" class="nav-link"> Deals </NavLink>
                             </li>
 
                             
@@ -91,19 +88,29 @@ function Header() {
                     </div>
                     <div className="right-log-div">
 
-                    
-                              
-                        <button type="button" class="btn log-btn" onClick={openModal}>
-                           <span className="d-sm-none d-block">
-                              <FiUser/>
-                           </span>
-                           <span className="d-sm-block d-none">
-                             Login
-                           </span>
+                        <Link to="/" className="btn btn-sell p-0">
+                        Sell on AndFlip
+                        </Link>
+
+                        
+                        
+                        <button type="button" class="btn log-btn1 mx-5 p-0" onClick={openModal}>
+                              <span className="d-sm-none d-block">
+                                 <FiUser/>
+                              </span>
+                              <span className="d-sm-block d-none">
+                              Signin
+                              </span>
 
 
-                           
+                        
                         </button>
+                              
+
+                        <Link to="/" className="btn log-btn">
+                            SignUp
+                        </Link>
+                        
                     </div>
                 </div>
           </nav>

@@ -12,7 +12,7 @@ margin: 0;
 outline: none !important;
 padding: 0;
 vertical-align: baseline;
-font-family: 'Roboto', sans-serif;
+font-family: 'Open Sans', sans-serif;
 }
 
 body {
@@ -22,6 +22,7 @@ background: #fff;
 background-repeat: repeat-x;
 font-size:1.4rem;
 color:#272320;
+
 
 }
 a{
@@ -90,7 +91,7 @@ outline: 0;
   --primarycolor:#8cc739;
   --secondarycolor:#0a0a0a;
   --textcolor:#242424;
-  --mainheading:'Manrope', sans-serif;
+  --mainheading:'Open Sans', sans-serif;
   --headingsize:46px;
   --lightcolor:#ffffff;
   --subbannersize:40px;
@@ -139,13 +140,21 @@ header{
     z-index: 2;
 }
 .navbar-light .navbar-nav a{
-  text-transform: uppercase;
-  font-family: var(--mainheading);
-  font-weight: 700;
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
   color: #000000;
   padding-left: 22px;
   padding-right: 22px;
-  font-size: 16px;
+  font-size: 17px;
+}
+.btn-sell,
+.log-btn1{
+  text-transform: capitalize;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  color: #000000;
+  font-size: 17px;
 }
 .navbar-light .navbar-nav .active{
   color: var(--primarycolor);
@@ -153,9 +162,8 @@ header{
 .log-btn{
   background: var(--primarycolor);
   color: var(--lightcolor) !important;
-  font-family: var(--mainheading);
-  text-transform: uppercase;
-  font-weight: 700;
+  text-transform:capitalize;
+  font-weight: 500;
   font-size: 16px;
   padding: 10px 30px;
   border-radius: 10px;
@@ -478,7 +486,6 @@ margin-left: 10px;
 }
 .items-slider-rev h5{
   font-size: 18px;
-  font-weight: 700;
   font-family: var(--mainheading);
   margin-top: 18px;
 }
@@ -3443,7 +3450,7 @@ margin: 20px 0 80px  0;
   color: var(--lightcolor);
 }
 .breadcrumb .active{
-  color: var(--primarycolor);
+  color: var(--secondarycolor);
   font-weight: 700;
   font-family: var(--mainheading);
   font-size: 16px;
@@ -3721,6 +3728,122 @@ margin: 20px 0 80px  0;
   padding-right: 30px;
 }
 
+.about-banner{
+  background: #0c0c0c;
+  padding: 80px 0;
+
+}
+.about-banner h2{
+  color: var(--primarycolor);
+  font-size: 70px;
+  font-weight: 800;
+}
+.about-banner h2 span{
+  color: var(--lightcolor);
+}
+.about-banner p{
+  font-size: 22px;
+  font-weight: 600;
+}
+.about-color{
+  background: var(--primarycolor);
+  padding: 60px 0;
+}
+.howite-work{
+  background: #f9f9f9;
+  padding: 60px 0;
+}
+.comon-works{
+  width: 100%;
+  display: inline-block;
+
+}
+.comon-works figure{
+  width: 90px;
+}
+.comon-works h4{
+  font-size: 28px;
+  font-weight:700;
+  margin-bottom: 15px;
+}
+.comon-works p{
+  font-size: 17px;
+}
+.abouty{
+  background-color: #fff;
+  border: 1px solid #c7ced7 !important;
+  border-radius: 50px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  text-decoration: none;
+  height: 80px;
+  justify-content: center;
+}
+.zaptxt {
+  width: 50%;
+  text-align: left;
+  justify-content: flex-start;
+  display: flex;
+}
+.jobs{
+  background: var(--lightcolor) !important;
+}
+.satifaction-part figure{
+  width: 250px;
+}
+.satifaction-part h2{
+  font-weight: 800;
+  font-size: 52px;
+}
+.numbtrx h2{
+  color: var(--primarycolor);
+}
+.numbtrx p{
+  font-size: 22px;
+}
+.tesimonials-part{
+  background-color: #f4f9f6;
+  padding: 60px 0;
+}
+.sell-on{
+  background: var(--primarycolor);
+  padding: 60px 0;
+}
+.comon-diuvy figure{
+  width: 70px;
+}
+.comon-diuvy h5{
+  font-size: 46px;
+  font-weight: 800;
+}
+.comon-diuvy p{
+  font-size: 20px;
+  margin-top: 10px;
+}
+.btn-sel{
+  background: var(--lightcolor);
+  padding: 12px 30px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-top: 15px;
+  border-radius: 40px;
+}
+.founder-details{
+  text-align: center;
+  padding: 30px;
+  background: var(--lightcolor);
+  border-radius: 20px;
+}
+.founder-details h5{
+  font-size: 30px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+.founder-details h6{
+  font-size: 18px;
+  color: var(--primarycolor);
+}
 @media (max-width:1180px){
   .main-heading-text,
   .testimonails-part h2,
